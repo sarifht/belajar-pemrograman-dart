@@ -13,4 +13,11 @@ void main() {
   // Menggunakan karakter backslash
   var text = 'this is \'dart\' \$100';
   print(text);
+
+  // Menggabungkan String
+  var myName = firstName + ' ' + lastName;
+  print(myName);
+
+  var presidentName = 'Joko' 'Widodo';
+  print(presidentName);
 }
