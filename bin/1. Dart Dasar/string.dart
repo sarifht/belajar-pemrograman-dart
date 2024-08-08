@@ -20,4 +20,14 @@ void main() {
 
   var presidentName = 'Joko' 'Widodo';
   print(presidentName);
+
+  // Belajar multi-line String
+  var longString = '''
+  Ini adalah contoh dari String
+  yang lebih dari satu baris, cocok
+  digunakan untuk membuat sebuah
+  kalimat atau paragraf
+  ''';
+
+  print(longString);
 }
