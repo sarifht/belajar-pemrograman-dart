@@ -1,5 +1,3 @@
-import 'dart:typed_data';
-
 void main() {
   // Ini contoh jika tidak menggunakan variable
 
