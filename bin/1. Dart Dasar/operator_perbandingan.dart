@@ -14,6 +14,7 @@ void main() {
   print('');
   print('sarif' == 'sarif');
   print('sarif' == 'Sarif');
+  // ignore: unrelated_type_equality_checks
   print(10 == '10');
   print('sarif' != 'sarif');
 }
