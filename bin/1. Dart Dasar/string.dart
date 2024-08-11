@@ -7,7 +7,7 @@ void main() {
   print(lastName);
 
   // String Interpolation
-  var fullName = '$firstName ${lastName}';
+  var fullName = '$firstName $lastName';
   print(fullName);
 
   // Menggunakan karakter backslash
@@ -15,7 +15,7 @@ void main() {
   print(text);
 
   // Menggabungkan String
-  var myName = firstName + ' ' + lastName;
+  var myName = '$firstName $lastName';
   print(myName);
 
   var presidentName = 'Joko' 'Widodo';
