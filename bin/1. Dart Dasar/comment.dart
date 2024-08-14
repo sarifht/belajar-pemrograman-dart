@@ -1,4 +1,5 @@
 /// Ini contoh komentar untuk dokumentasi
+library;
 
 void main() {
   // Ini contoh komentar satu baris
