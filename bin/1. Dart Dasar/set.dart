@@ -21,4 +21,5 @@ void main() {
   };
 
   print(city);
+  print(city.length);
 }
