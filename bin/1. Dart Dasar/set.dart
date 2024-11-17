@@ -1,3 +1,5 @@
+// ignore_for_file: equal_elements_in_set
+
 void main() {
   Set<int> angka = {1, 1, 2, 3, 4};
   print(angka);
