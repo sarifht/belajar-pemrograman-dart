@@ -4,6 +4,12 @@ class Person {
   final String country = "Indonesia";
 }
 
+extension SayGoodByeOnPerson on Person {
+  void sayGoodBye(String paramName) {
+    print("Good Bye $paramName, from $name");
+  }
+}
+
 void main() {
   var person1 = Person();
 
@@ -15,6 +21,7 @@ void main() {
   print(person1.name);
   print(person1.address);
   print(person1.country);
+  person1.sayGoodBye("Joko");
 
   Person person2 = Person();
   print(person2);
